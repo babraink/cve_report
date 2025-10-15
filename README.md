@@ -1,2 +1,2 @@
 # cve_report
-上报cve漏洞仓库
+This is the data warehouse for reporting CVE vulnerabilities.
