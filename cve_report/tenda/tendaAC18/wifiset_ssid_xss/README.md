@@ -2,7 +2,7 @@
 
 **Vendor of the products:**    Tenda
 
-**Vendor's website:**    https://www.tenda.com.cn/material/show/2610
+**Vendor's website:**    https://www.tenda.com.cn
 
 **Reported by:**    YanKang、ChenZhijin、WeiKanghong
 
