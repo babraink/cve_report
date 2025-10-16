@@ -10,7 +10,7 @@
 
 **Affected firmware version:**	V15.03.05.05_multi
 
-**Firmware download address:** 	[https://www.tenda.com.cn/material/show/2610](https://software.cisco.com/download/home/286287791/type/282465789/release/1.0.03.29 "https://software.cisco.com/download/home/286287791/type/282465789/release/1.0.03.29")
+**Firmware download address:** 	https://www.tenda.com.cn/material/show/2610
 
 # Overview
 
