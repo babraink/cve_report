@@ -244,7 +244,9 @@ As the target device firmware is closed-source and does not expose debugging sym
 
 A complete proof-of-concept script and a short demonstration video are provided in this repository to illustrate the reliable reproduction of the issue.
 
-<video src="images/CVE.mp4"></video>
+A demonstration video showing the full attack flow and device reboot
+is available via GitHub Releases:
+https://github.com/babraink/cve_report/releases/tag/MERCURY_MIPC252W_1_vedio
 
 
 
@@ -259,4 +261,5 @@ This vulnerability allows an authenticated attacker to trigger a denial-of-servi
 Successful exploitation causes the camera to become unavailable, interrupts video streaming, and results in the device appearing offline in the management application. Repeated exploitation can lead to sustained service disruption, negatively impacting the availability and reliability of the device in real-world deployment scenarios.
 
 The issue has been assigned a **CVSS v3.1** base score of **5.5(Medium)** with the vector **CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H**
+
 
