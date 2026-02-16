@@ -36,10 +36,6 @@ Tested device:
 - Model: MIPC252W
 - Firmware: 1.0.5 Build 230306 Rel.79931n
 
-Impact:
-- Device crashes and automatically reboots
-- RTSP service interruption (Denial of Service)
-
 This code is for authorized security research purposes only.
 """
 
@@ -257,6 +253,7 @@ This vulnerability allows an authenticated attacker to trigger a denial-of-servi
 Successful exploitation interrupts the camera’s RTSP video stream. An attacker can repeatedly trigger this behavior to continuously disrupt RTSP sessions, thereby reducing the availability and stability of the device’s video service in real-world deployment scenarios.
 
 The issue has been assigned a **CVSS v3.1** base score of **4.4(Medium)** with the vector **CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H**
+
 
 
 
