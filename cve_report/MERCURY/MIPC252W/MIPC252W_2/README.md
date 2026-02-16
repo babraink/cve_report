@@ -30,8 +30,6 @@ After running the PoC, the script establishes an RTSP session with the target ca
 PoC for Null Pointer Dereference in MERCURY MIPC252W RTSP Service
 
 This proof-of-concept reproduces a denial-of-service vulnerability
-by following a complete RTSP request sequence and sending a malformed
-SETUP request with an empty Transport header field for the second media track.
 
 Tested device:
 - Vendor: MERCURY
@@ -259,5 +257,6 @@ This vulnerability allows an authenticated attacker to trigger a denial-of-servi
 Successful exploitation interrupts the camera’s RTSP video stream. An attacker can repeatedly trigger this behavior to continuously disrupt RTSP sessions, thereby reducing the availability and stability of the device’s video service in real-world deployment scenarios.
 
 The issue has been assigned a **CVSS v3.1** base score of **4.4(Medium)** with the vector **CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H**
+
 
 
